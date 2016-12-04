@@ -272,9 +272,7 @@ killAll Finder && killAll Dock
   - Show perferences on launch
   - Run as faceless application
 - Keyboard
-- ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
-
-# Login
+![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
 # Rules
 - Don't install anything else in an effort to increase performance.
