@@ -2,13 +2,6 @@
 A checklist and list of scripts I should run when getting a new Computer.
 This was made on OSX10.11 by Grant Timmerman
 
-# Ideal dev computer (as of 2016)
-- iMac
-- Quad-core >=4.0GHz Processor
-- 32GB DDR3
-- 512GB Flash Storage
-- 4GB Video Memory
-
 # System Preferences
 - General
   - Appearance: Blue
@@ -273,6 +266,13 @@ killAll Finder && killAll Dock
   - Run as faceless application
 - Keyboard
 ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
+
+# Hardware (Ideal dev computer (as of 2016))
+- iMac
+- Quad-core >=4.0GHz Processor
+- 32GB DDR3
+- 512GB Flash Storage
+- 4GB Video Memory
 
 # Rules
 - Don't install anything else in an effort to increase performance.
