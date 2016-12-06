@@ -1,5 +1,5 @@
 # New Computer Checklist
-A checklist and list of scripts I should run when getting a new Computer.
+A checklist and list of scripts I should run when getting a new computer.
 This was made on OSX10.11 by Grant Timmerman
 
 # System Preferences
