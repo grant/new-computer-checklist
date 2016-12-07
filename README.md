@@ -8,9 +8,9 @@ This was made on OSX10.11 by Grant Timmerman
   - LastPass (Password manager)
   - iPhone (2FA)
 
-# System Preferences
+## System Preferences
 
-## General
+### General
   - Appearance: Blue
   - Highlight color: Other (gray)
   - Show scroll bars: Automatically based on mouse or trackpad
@@ -21,12 +21,12 @@ This was made on OSX10.11 by Grant Timmerman
   - [x] Allow Handoff between this Mac and your iCloud devices
   - [x] Use LCD font smoothing when available
 
-## Desktop & Screen Saver
+### Desktop & Screen Saver
   - Message: Start after: 1 hour, [x] show clock
   - Hot corner: bottom-left, put monitor to sleep
   - Screen Saver: Bahamas blue
 
-## Dock
+### Dock
   - Size: 10%
   - [x] Magnification
   - Position on screen: Right
@@ -36,7 +36,7 @@ This was made on OSX10.11 by Grant Timmerman
   - [x] Automatically hide and show the Dock
   - [x] Show indicators for open applications
 
-## Mission Control
+### Mission Control
   - [x] Automatically rearrage Spaces based on most recent use
   - [x] When switching to an applications, switch to a Space with open windows for the application
   - [ ] Group windows by application
@@ -47,7 +47,7 @@ This was made on OSX10.11 by Grant Timmerman
   - Show Desktop: F11
   - Show Dashboard F12
 
-## Language & Region
+### Language & Region
   - Preferred languages
     - English - Primary
     - 简体中文 - Chinese, Simplified
@@ -57,7 +57,7 @@ This was made on OSX10.11 by Grant Timmerman
   - Time format: [x] 24-Hour Time
   - List sort order: Universal
 
-## Security & Privacy
+### Security & Privacy
   - General
     - Require password for 1 minute after sleep or screensafer begins
     - Disable automatic login
@@ -69,22 +69,22 @@ This was made on OSX10.11 by Grant Timmerman
         - Allow the app to control your computer via System Preferences > Security & Privacy
       - RescueTime (https://www.rescuetime.com/get_rescuetime)
 
-## Spotlight
+### Spotlight
   - Only the following:
     - Folders
     - PDF Documents
     - System Preferences
 
-## Notifications - Nothing special
+### Notifications - Nothing special
 
-## Display
+### Display
   - Default for display
   - Rotation: Standard
   - Refresh Rate: 60 Hertz (NTSC)
   - Underscan: Off
   - [x] Show mirroring options in the menu bar when available
 
-## Energy Saver
+### Energy Saver
   - [x] Automatic graphics switching
   - 3 hrs
   - [ ] Put hard disks to sleep when possible
@@ -92,7 +92,7 @@ This was made on OSX10.11 by Grant Timmerman
   - [x] Enable Power Nap while plugged into a power adapter
   - [x] Show battery status in menu bar
 
-## Keyboard
+### Keyboard
   - Key Repeat - 2nd to fastest
   - Delay Until Repeat - 3rd tick from left
   - [x] Use all F1, F2, etc.
@@ -101,14 +101,14 @@ This was made on OSX10.11 by Grant Timmerman
   - [x] Show Keyboard, Emoji, & Symbol Viewers in menu bar
   - No other unique keyboard settings
 
-## Mouse
+### Mouse
   - Tracking speed: Fastest
     - (you can increase it beyond this by doing this http://apple.stackexchange.com/questions/15210/how-to-increase-tracking-speed-beyond-the-maximum)
   - Scrolling speed: 4th tick from left
   - Double-Click speed: 2nd tick from right
   - Primary mouse button: Left
 
-## Trackpad
+### Trackpad
   - Point & Click
     - [ ] Look up & data detectors
     - [x] Secondary click
@@ -128,13 +128,13 @@ This was made on OSX10.11 by Grant Timmerman
     - [x] Launchpad
     - [x] Show Desktop
 
-## Printers & Scanners - Nothing special
+### Printers & Scanners - Nothing special
 
-## Sound
+### Sound
   - Nothing special
   - [x] Show volume in menu bar
 
-## iCloud
+### iCloud
   - [ ] iCloud Drive
   - [x] Photos
   - [ ] Mail
@@ -147,7 +147,7 @@ This was made on OSX10.11 by Grant Timmerman
   - [ ] Back to My Mac
   - [x] Find My Mac
 
-## Internet Accounts (try not to add anything unless needed here)
+### Internet Accounts (try not to add anything unless needed here)
   - iCloud
     - Photos
     - Contacts
@@ -156,35 +156,35 @@ This was made on OSX10.11 by Grant Timmerman
     - Find My Mac
   - None besides that
 
-## Extensions
+### Extensions
   - DON'T DOWNLOAD DRIVE OR DROPBOX
   - Actions: Not enabled
   - Finder: Not enabled
   - Share Menu: Mail, AirDrop, Messages
   - Today: Not enabled
 
-## Network
+### Network
   - Show Wi-Fi status in menu bar
   - Advanced
     - Nothing really different besides default
     - DNS Servers
       - 192.168.0.1
 
-## Blootooth
+### Blootooth
   - Turn Bluetooth Off
   - [ ] Show Bluetooth in menu bar
 
-## Sharing
+### Sharing
   - Nothing should be on
 
-## Users & Groups
+### Users & Groups
   - Grant Timmerman - Admin
     - Avatar: Owl
   - Other Users - Guest User - Off
 
-## Parental Controls - none
+### Parental Controls - none
 
-## App Store
+### App Store
   - [x] Automatically check for updates
     - [x] Download newly available updates in the background
     - [x] Install app updates
@@ -192,10 +192,10 @@ This was made on OSX10.11 by Grant Timmerman
     - [x] Install system data files and security updates
   - [ ] Automatically download apps purchaes on other Macs
 
-## Dictation & Speech
+### Dictation & Speech
   - Dictation All Off
 
-## Date & Time
+### Date & Time
   - Date & Time: Set date and time automatically
   - Time Zone: Set time zone automatically using current location
   - Clock
@@ -205,9 +205,9 @@ This was made on OSX10.11 by Grant Timmerman
       - [x] Show the day of the week
       - [x] Show the date
 
-## Time Machine: Off
+### Time Machine: Off
 
-## Accessibility
+### Accessibility
   - Display
     - [ ] Invert colors
     - [ ] Use grayscale
@@ -237,12 +237,12 @@ This was made on OSX10.11 by Grant Timmerman
   - Switch Control: Default
   - Dictation: None
 
-## Flash Player/Java: Default
+### Flash Player/Java: Default
   - Install: https://get.adobe.com/flashplayer/?fpchrome
     - Allow Adobe to install updates
 
-# Applications
-## finder
+## Applications
+### finder
   - in folders, right-click, View > as List
   - Finder > Preferences
     - Sidebar
@@ -275,7 +275,7 @@ This was made on OSX10.11 by Grant Timmerman
       - [ ] Show warning before emptying the Trash
       - When performing a search: Search the Current Folder
 
-## shell
+### shell
   - [iTerm](https://www.iterm2.com/) - Terminal
     - General
       - Startup
@@ -368,16 +368,16 @@ This was made on OSX10.11 by Grant Timmerman
   - [yarn](https://yarnpkg.com/en/docs/install)
   - https://github.com/grant/dotfiles
 
-## [Sublime](https://www.sublimetext.com/3) - Text editor
+### [Sublime](https://www.sublimetext.com/3) - Text editor
   - Install package control
 
-## [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
+### [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
   - Keymap scheme: Mac OS X 10.5+
   - IDE Theme: Darcula
   - Editor color and fonts: Darcula
   - [x] Enable opening files and projects from the command line
 
-## [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
+### [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
   - Chrome Extensions (chrome://extensions/)
     - AdBlock
@@ -400,7 +400,7 @@ This was made on OSX10.11 by Grant Timmerman
     - Video Speed Controller
     - WhatFont
 
-## [Moom](manytricks.com/moom/) - Window management
+### [Moom](manytricks.com/moom/) - Window management
   - General
     - Launch on login
     - Show perferences on launch
@@ -408,15 +408,15 @@ This was made on OSX10.11 by Grant Timmerman
   - Keyboard
     ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
-## [Slack](slack.com/downloads/osx) - Communications
+### [Slack](slack.com/downloads/osx) - Communications
 
-## [Licecap](cockos.com/licecap/) - Create GIFs
+### [Licecap](cockos.com/licecap/) - Create GIFs
 
-## [Firefox](mozilla.org/firefox)
+### [Firefox](mozilla.org/firefox)
 
-## [RescueTime](rescuetime.com/download)
+### [RescueTime](rescuetime.com/download)
 
-# Dock
+## Dock
   - Remove all but the following:
     - Finder
     - Launchpad
@@ -425,45 +425,45 @@ This was made on OSX10.11 by Grant Timmerman
     - Downloads
     - Trash
 
-# Launchpad
+## Launchpad
   - This will be cluttered, but uninstall anything not relevant.
   - Put all pre-installed apps in folders
 
-# Optional
+## Optional
 - Golang
 - IntelliJ
 - RescueTime
 
-# Scripts
+## Scripts
 ```sh
-# All scripts not effective until Finder and Dock are restarted (see below)
+## All scripts not effective until Finder and Dock are restarted (see below)
 
-# Make screenshots save to custom directory:
+## Make screenshots save to custom directory:
 cd ~;
 mkdir screenshots;
 defaults write com.apple.screencapture location ~/Documents/screenshots;
-# Speed up exposé animation
+## Speed up exposé animation
 defaults write com.apple.dock expose-animation-duration -float 0.12 && killall Dock
-# Show hidden files in finder
+## Show hidden files in finder
 defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
-# Disable animation for Get Info window
+## Disable animation for Get Info window
 defaults write com.apple.finder DisableAllAnimations -bool true
 
-# !!! Commit changes by running the following
+## !!! Commit changes by running the following
 killAll Finder && killAll Dock
 ```
 
-# Websites
+## Websites
 - Google Drive: In settings, disable sync offline mode.
 
-# Hardware (Ideal dev computer (as of 2016))
+## Hardware (Ideal dev computer (as of 2016))
 - iMac
 - Quad-core >=4.0GHz Processor
 - 32GB DDR3
 - 512GB Flash Storage
 - 4GB Video Memory
 
-# Rules
+## Rules
 - Don't install anything else in an effort to increase performance.
   - Dropbox
   - Drive
