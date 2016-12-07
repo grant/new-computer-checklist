@@ -345,7 +345,7 @@ I'll feel like a super fast, new machine!
       - Colors
         - Use the defaults for everything besides the following
         - Selection: ff8000
-        - Minimum contrast: max
+        - Minimum contrast: min
       - Text
         - Cursor
           - [x] Vertical bar
