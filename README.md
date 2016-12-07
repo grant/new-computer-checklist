@@ -313,7 +313,7 @@ I'll feel like a super fast, new machine!
         - Theme: Dark
         - [x] Show tab bar even when there is only one tab
         - [x] Show tab numbers
-        - [ ] Show tab close buttons
+        - [x] Show tab close buttons
         - [x] Show activity indicator
         - [x] Show new-output indicator
         - [x] Show tab bar in fullscreen
@@ -323,8 +323,8 @@ I'll feel like a super fast, new machine!
         - [ ] Auto-hide menu bar in non-native fullscreen
       - Window & Tab Titles
         - [x] Show window number
-        - [ ] Show current job name
-        - [x] Show profile name
+        - [x] Show current job name
+        - [ ] Show profile name
       - Dimming
         - [ ] Dimming affects only text, not background.
         - Dimming amount: 1/4 Minimal
