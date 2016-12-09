@@ -414,6 +414,8 @@ I'll feel like a super fast, new machine!
 
 ### 🖼 [Licecap](cockos.com/licecap/) - Create GIFs
 
+### MacDown - `brew cask install macdown` 
+
 ### 🐺 [Firefox](mozilla.org/firefox)
 
 ### ⏰ [RescueTime](rescuetime.com/download)
@@ -435,6 +437,7 @@ I'll feel like a super fast, new machine!
 - Golang
 - IntelliJ
 - RescueTime
+- [MacDown](http://macdown.uranusjr.com/)
 
 ## 📝 Scripts
 ```sh
