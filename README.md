@@ -6,6 +6,8 @@ I'll feel like a super fast, new machine!
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a fresh machine fresh off the press. Would you be able to recover your favorite settings?
 
+## Getting Started
+
 To get started, simply fork this repo and customize your settings.
 
 - You should have the following user/pass combinations ready
