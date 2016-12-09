@@ -440,6 +440,11 @@ I'll feel like a super fast, new machine!
 - [MacDown](http://macdown.uranusjr.com/)
 
 ## 📝 Scripts
+
+- git
+  - `git config --global push.default matching`
+
+- OSX
 ```sh
 ## All scripts not effective until Finder and Dock are restarted (see below)
 
