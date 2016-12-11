@@ -491,3 +491,9 @@ killAll Finder && killAll Dock
   - Battle.net/Blizzard
   - Wineskin
   - Thalmic labs
+
+# Tips and tricks
+- https://blog.sindresorhus.com/macos-tips-tricks-13046cf377f8#.bw4vdg7q4
+
+# TODO
+Add chrome extensions
