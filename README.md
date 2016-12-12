@@ -375,6 +375,9 @@ To get started, simply fork this repo and customize your settings.
   - [npm](https://nodejs.org/en/)
   - [yarn](https://yarnpkg.com/en/docs/install)
   - https://github.com/grant/dotfiles
+  - Git config (https://help.github.com/articles/set-up-git/):
+    - `git config --global user.name "YOUR NAME"`
+    - `git config --global user.email "YOUR EMAIL ADDRESS"`
 
 ### 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
   - Install package control
