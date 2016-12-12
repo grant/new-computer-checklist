@@ -441,6 +441,7 @@ To get started, simply fork this repo and customize your settings.
 - Golang
 - IntelliJ
 - RescueTime
+- http://gitup.co/
 
 ## 📝 Scripts
 
