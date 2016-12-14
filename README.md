@@ -446,6 +446,7 @@ To get started, simply fork this repo and customize your settings.
 - IntelliJ
 - RescueTime
 - http://gitup.co/
+- Heroku Toolbelt (https://devcenter.heroku.com/articles/heroku-cli)
 
 ## 📝 Scripts
 
