@@ -285,6 +285,7 @@ To get started, simply fork this repo and customize your settings.
 
 ### ⬛ shell
   - [iTerm](https://www.iterm2.com/) - Terminal
+    - Download my settings here: https://github.com/grant/iterm-profile
     - General
       - Startup
         - Use System Window Restoration Setting
