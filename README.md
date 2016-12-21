@@ -379,6 +379,8 @@ To get started, simply fork this repo and customize your settings.
   - Git config (https://help.github.com/articles/set-up-git/):
     - `git config --global user.name "YOUR NAME"`
     - `git config --global user.email "YOUR EMAIL ADDRESS"`
+    - `git config --global commit.gpgsign true`
+      - https://help.github.com/articles/generating-a-new-gpg-key/
 
 ### 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
   - Install package control
