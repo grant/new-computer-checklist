@@ -384,6 +384,7 @@ To get started, simply fork this repo and customize your settings.
 
 ### 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
   - Install package control
+  - [Settings](https://github.com/grant/dotfiles/blob/master/Preferences.sublime-settings)
 
 ### 📝 [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
   - Keymap scheme: Mac OS X 10.5+
