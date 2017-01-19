@@ -392,6 +392,8 @@ To get started, simply fork this repo and customize your settings.
   - Editor color and fonts: Darcula
   - [x] Enable opening files and projects from the command line
 
+### ⚡ [Messenger](https://fbmacmessenger.rsms.me/)
+
 ### 🌐 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
   - Chrome Extensions (chrome://extensions/)
