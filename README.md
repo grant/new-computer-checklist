@@ -246,8 +246,9 @@ To get started, simply fork this repo and customize your settings.
   - Dictation: None
 
 ### ☕ Flash Player/Java: Default
-  - Install: https://get.adobe.com/flashplayer/?fpchrome
+  - Flash: https://get.adobe.com/flashplayer/?fpchrome
     - Allow Adobe to install updates
+  - Java: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 
 ## 🖥 Applications
 ### 📂 finder
