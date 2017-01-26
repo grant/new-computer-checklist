@@ -374,6 +374,7 @@ To get started, simply fork this repo and customize your settings.
       - Session, Keys, Advanced
         - Defaults
   - Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    - brew install tree
   - [npm](https://nodejs.org/en/)
   - [yarn](https://yarnpkg.com/en/docs/install)
   - https://github.com/grant/dotfiles
