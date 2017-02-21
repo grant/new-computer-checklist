@@ -462,6 +462,9 @@ To get started, simply fork this repo and customize your settings.
 - git
   - `git config --global push.default matching`
 
+- json
+  - `sudo npm install -g jsontool # | json`
+
 - OSX
 ```sh
 ## All scripts not effective until Finder and Dock are restarted (see below)
