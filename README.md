@@ -257,13 +257,10 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
 
 ## 🖥 Applications
 > Any application that you have pinned constantly should be converted to a native app
-  - https://github.com/jiahaog/nativefier
-  - `sudo npm install nativefier -g`
-- Applications
-  - Google Calendar
-    - `nativefier "calendar.google.com"`
-    - Benefits: Less tabs, more isolation
-    - Disadvantages: Links don't work
+  - https://github.com/jiahaog/nativefier `sudo npm install nativefier -g`
+- Applications +(Less tabs, more isolation), -(Links don't work)
+  - Google Calendar: `nativefier "calendar.google.com"`
+  - SoundCloud: `nativefier --name "SoundCloud" soundcloud.com`
 
 ### 📂 finder
   - in folders, right-click, View > as List
