@@ -251,6 +251,14 @@ To get started, simply fork this repo and customize your settings.
   - Java: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
 
 ## 🖥 Applications
+> Any application that you have pinned constantly should be converted to a native app
+- https://github.com/jiahaog/nativefier
+  - `sudo npm install nativefier -g`
+- Google Calendar
+  - `nativefier "calendar.google.com"`
+- Benefits: Less tabs, more isolation
+- Disadvantages: Links don't work
+
 ### 📂 finder
   - in folders, right-click, View > as List
   - Finder > Preferences
