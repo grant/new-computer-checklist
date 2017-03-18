@@ -252,12 +252,13 @@ To get started, simply fork this repo and customize your settings.
 
 ## 🖥 Applications
 > Any application that you have pinned constantly should be converted to a native app
-- https://github.com/jiahaog/nativefier
+  - https://github.com/jiahaog/nativefier
   - `sudo npm install nativefier -g`
-- Google Calendar
-  - `nativefier "calendar.google.com"`
-- Benefits: Less tabs, more isolation
-- Disadvantages: Links don't work
+- Applications
+  - Google Calendar
+    - `nativefier "calendar.google.com"`
+    - Benefits: Less tabs, more isolation
+    - Disadvantages: Links don't work
 
 ### 📂 finder
   - in folders, right-click, View > as List
