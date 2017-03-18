@@ -14,7 +14,12 @@ To get started, simply fork this repo and customize your settings.
   - Wifi password
   - Apple ID
   - LastPass (Password manager)
-  - iPhone (2FA)
+  - iPhone/android phone (2FA)
+  
+## Performance
+Computer performance is extremely important. To do our jobs faster, we try to balance two things:
+- Use of applications/existing software/HOFs to make our lives **easier**
+- Performance/Efficientcy to make our lives **faster**
 
 ## System Preferences
 
