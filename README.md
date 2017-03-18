@@ -440,6 +440,9 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
   - Keyboard
     ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
+### ↔️ [QuickSilver](https://qsapp.com/download.php) - Global hotkeys
+  - Create global hotkeys for apps
+
 ### 🗣 [Slack](slack.com/downloads/osx) - Communications
 
 ### 🖼 [Licecap](cockos.com/licecap/) - Create GIFs
