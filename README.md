@@ -432,6 +432,7 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
     - Video Speed Controller
     - WhatFont
   - [Open email in Gmail instead of Apple Mail](https://blog.hubspot.com/marketing/set-gmail-as-browser-default-email-client-ht#sm.0000orlgqi4b7e33zxa10x3lz8ehe)
+      - Display density: compact
 
 ### ↔️ [Moom](manytricks.com/moom/) - Window management
   - General
