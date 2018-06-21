@@ -384,6 +384,11 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
         - Defaults for everything else
       - Session, Keys, Advanced
         - Defaults
+    - Preferences
+      - Terminal
+        - Shell Integration
+          - [ ] Insert newline before start of a command prompt if needed
+          - [ ] Show mark indicators
   - Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
     - brew install tree
   - [npm](https://nodejs.org/en/)
@@ -498,6 +503,10 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 
 ## !!! Commit changes by running the following
 killAll Finder && killAll Dock
+
+## View images from terminal (must use iTerm and follow Shell Integration setup above)
+curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
+# Then `imgcat ~/Downloads/IMG.JPG`
 ```
 
 ## 🕸 Websites
