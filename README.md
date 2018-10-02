@@ -25,6 +25,8 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
 
 ### 🍎 General
   - Appearance: Blue
+  - [x] Use dark menu bar and Dock
+  - [x] Automatically hide and show the menu bar
   - Highlight color: Other (gray)
   - Show scroll bars: Automatically based on mouse or trackpad
   - Click in the scroll bar to: Jump to the next page
