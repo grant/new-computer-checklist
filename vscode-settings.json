@@ -1,0 +1,61 @@
+{
+    "cSpell.userWords": [
+        "repos"
+    ],
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.autoIndent": true,
+    "editor.detectIndentation": true,
+    "editor.dragAndDrop": true,
+    "editor.emptySelectionClipboard": false,
+    "editor.find.autoFindInSelection": false,
+    "editor.find.seedSearchStringFromSelection": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.matchBrackets": true,
+    "editor.mouseWheelScrollSensitivity": 1,
+    "editor.quickSuggestionsDelay": 50,
+    "editor.renderIndentGuides": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.scrollBeyondLastLine": true,
+    "editor.selectionHighlight": true,
+    "editor.showFoldingControls": "mouseover",
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": true,
+    "editor.tabCompletion": true,
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "editor.useTabStops": true,
+    "editor.wordSeparators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "same",
+    "files.autoSave": "off",
+    "files.encoding": "utf8",
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                ".clasp.json"
+            ],
+            "url": "http://json.schemastore.org/clasp"
+        },
+        {
+            "fileMatch": [
+                "appsscript.json"
+            ],
+            "url": "http://json.schemastore.org/appsscript"
+        }
+    ],
+    "window.closeWhenEmpty": false,
+    "window.openFilesInNewWindow": "on",
+    "window.restoreFullscreen": false,
+    "window.title": "${activeEditorFull}${separator}${rootName}",
+    "window.zoomLevel": -1,
+    "workbench.colorTheme": "Monokai",
+    "workbench.editor.enablePreview": true,
+    "workbench.editor.tabCloseButton": "off"
+}
