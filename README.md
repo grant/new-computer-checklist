@@ -511,6 +511,11 @@ curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 # Then `imgcat ~/Downloads/IMG.JPG`
 ```
 
+## 📝 Fonts
+
+- Monaco
+- [Fira Code](https://github.com/tonsky/FiraCode)
+
 ## 🕸 Websites
 - Google Drive: In settings, disable sync offline mode.
 
