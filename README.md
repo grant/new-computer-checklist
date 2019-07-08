@@ -2,23 +2,22 @@
 A checklist and list of scripts I should run when getting a new computer or reinstalling OSX.
 I'll feel like a super fast, new machine!
 
-> This was made on OSX10.11 by Grant Timmerman
+> Updated for OSX10.14 by Grant Timmerman
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a new machine fresh off the press. Would you be able to recover your favorite settings?
 
 ## Getting Started
 
-To get started, simply fork this repo and customize your settings.
-
-- You should have the following user/pass combinations ready
-  - Wifi password
-  - Apple ID
-  - LastPass (Password manager)
-  - iPhone/android phone (2FA)
+You should have the following user/pass combinations ready:
+- Wifi password
+- Apple ID
+- LastPass (Password manager)
+- iPhone/Android phone (2FA)
   
 ## Performance
-Computer performance is extremely important. To do our jobs faster, we try to balance two things:
-- Use of applications/existing software/HOFs to make our lives **easier**
+
+**Computer performance is extremely important.** To do our jobs faster, we try to balance two things:
+- Use of applications to make our lives **easier**
 - Performance/Efficientcy to make our lives **faster**
 
 ## System Preferences
@@ -149,27 +148,11 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
   - Nothing special
   - [x] Show volume in menu bar
 
-### ☁️ iCloud
-  - [ ] iCloud Drive
-  - [x] Photos
-  - [ ] Mail
-  - [x] Contacts
-  - [ ] Calendar
-  - [ ] Reminders
-  - [x] Safari
-  - [x] Notes
-  - [x] Keychain
-  - [ ] Back to My Mac
-  - [x] Find My Mac
+### ☁️/🌐 iCloud / Internet Accounts
 
-### 🌐 Internet Accounts (try not to add anything unless needed here)
-  - iCloud
-    - Photos
-    - Contacts
-    - Safari
-    - Keychain
-    - Find My Mac
-  - None besides that
+- Uncheck all besides hardware settings. Use G Suite, Chrome, and Google Photos instead.
+  - [x] Keychain
+  - [x] Find My Mac
 
 ### 💎 Extensions
   - DON'T DOWNLOAD DRIVE OR DROPBOX
@@ -253,12 +236,12 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
   - Dictation: None
 
 ### ☕ Flash Player/Java: Default
-  - Flash: https://get.adobe.com/flashplayer/?fpchrome
-    - Allow Adobe to install updates
-  - Java: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html
+  - UPDATE (2019): Don't install Flash/Java
+  - ~~Flash: https://get.adobe.com/flashplayer/?fpchrome~~
+  - ~~Java: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html~~
 
 ## 🖥 Applications
-> Any application that you have pinned constantly should be converted to a native app
+> OPTIONAL: Any application that you have pinned constantly should be converted to a native app
   - https://github.com/jiahaog/nativefier `sudo npm install nativefier -g`
 - Applications +(Less tabs, more isolation), -(Links don't work)
   - Google Calendar: `nativefier "calendar.google.com"`
@@ -402,20 +385,6 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
     - `git config --global commit.gpgsign true`
       - https://help.github.com/articles/generating-a-new-gpg-key/
 
-### 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
-  - Install package control
-  - JSX Emmet (http://wesbos.com/emmet-react-jsx-sublime/)
-  - DocBlockr
-  - [Settings](https://github.com/grant/dotfiles/blob/master/Preferences.sublime-settings)
-
-### 📝 [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
-  - Keymap scheme: Mac OS X 10.5+
-  - IDE Theme: Darcula
-  - Editor color and fonts: Darcula
-  - [x] Enable opening files and projects from the command line
-
-### ⚡ [Messenger](https://fbmacmessenger.rsms.me/)
-
 ### 🌐 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
   - Chrome Extensions (chrome://extensions/)
@@ -449,36 +418,19 @@ Computer performance is extremely important. To do our jobs faster, we try to ba
   - Keyboard
     ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
-### ↔️ [QuickSilver](https://qsapp.com/download.php) - Global hotkeys
-  - Create global hotkeys for apps
-
-### 🗣 [Slack](slack.com/downloads/osx) - Communications
-
-### 🖼 [Licecap](cockos.com/licecap/) - Create GIFs
-
-### 🐺 [Firefox](mozilla.org/firefox)
+### 🖼 [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
 
 ### ⏰ [RescueTime](rescuetime.com/download)
 
 ## 🚢 Dock
   - Remove all but the following:
     - Finder
-    - Launchpad
-    - Messenges
     - iTerm
-    - Downloads
-    - Trash
+    - VS Code
 
 ## 🚀 Launchpad
   - This will be cluttered, but uninstall anything not relevant.
   - Put all pre-installed apps in folders
-
-## ❓ Optional
-- Golang
-- IntelliJ
-- RescueTime
-- http://gitup.co/
-- Heroku Toolbelt (https://devcenter.heroku.com/articles/heroku-cli)
 
 ## 📝 Scripts
 
@@ -516,15 +468,10 @@ curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 - Monaco
 - [Fira Code](https://github.com/tonsky/FiraCode)
 
-## 🕸 Websites
-- Google Drive: In settings, disable sync offline mode.
-
 ## 🖥 Hardware (Ideal dev computer (as of 2016))
-- iMac
-- Quad-core >=4.0GHz Processor
-- 32GB DDR3
-- 512GB Flash Storage
-- 4GB Video Memory
+- iMac 18core
+- 256GB DDR4
+- 2TB SSD
 
 ## 🛃 Rules
 - Don't install anything else in an effort to increase performance.
@@ -544,3 +491,17 @@ curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 
 # Tips and tricks
 - https://blog.sindresorhus.com/macos-tips-tricks-13046cf377f8#.bw4vdg7q4
+
+# Deprecated Software
+
+- Use of anything related to iCloud.
+- 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
+- 📝 [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
+- ⚡ [Messenger](https://fbmacmessenger.rsms.me/)
+- ↔️ [QuickSilver](https://qsapp.com/download.php)
+- 🗣[Slack](slack.com/downloads/osx) - Communications
+- 🐺 [Firefox](mozilla.org/firefox)
+- Golang
+- IntelliJ
+- http://gitup.co/
+- Heroku Toolbelt (https://devcenter.heroku.com/articles/heroku-cli)
