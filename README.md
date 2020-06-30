@@ -285,7 +285,15 @@ To do our jobs faster, we try to balance two things:
 
 ### ⬛ Terminal Settings
   - Download my settings here: https://github.com/grant/iterm-profile
-  - Copy `.ssh` folder.
+  - Copy `.ssh` folder from this repo.
+  - Generate a key and [add it to GitHub](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
+    - ```sh
+      ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+      eval "$(ssh-agent -s)"
+      /usr/bin/ssh-add -K ~/.ssh/id_rsa
+      pbcopy < ~/.ssh/id_rsa.pub
+      ```
+    # Use GitHub UI to add public key to GH
   - [iTerm](https://www.iterm2.com/) - Terminal
     - General
       - Startup
