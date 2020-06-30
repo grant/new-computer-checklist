@@ -249,6 +249,7 @@ To do our jobs faster, we try to balance two things:
 - Applications +(Less tabs, more isolation), -(Links don't work)
   - Google Calendar: `nativefier "calendar.google.com"`
   - SoundCloud: `nativefier --name "SoundCloud" soundcloud.com`
+  - Google Chat: `nativefier --name "Hangouts Chat" chat.google.com`
 
 ### 📂 finder
   - in folders, right-click, View > as List
