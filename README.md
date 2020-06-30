@@ -1,22 +1,26 @@
 # 💻🎁 New Computer Checklist 🎁💻
-A checklist and list of scripts I should run when getting a new computer or reinstalling OSX.
-I'll feel like a super fast, new machine!
 
-> Updated for OSX10.14 by Grant Timmerman
+A checklist and list of scripts I should run when getting a new computer or reinstalling OSX.
+
+It'll feel like a super fast, new machine!
+
+> Updated for OSX10.15 by Grant Timmerman
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a new machine fresh off the press. Would you be able to recover your favorite settings?
 
 ## Getting Started
 
 You should have the following user/pass combinations ready:
-- Wifi password
-- Apple ID
+- Wifi password (OS setup)
+- Apple ID (OS setup)
 - LastPass (Password manager)
-- iPhone/Android phone (2FA)
+- Phone – 2FA
   
 ## Performance
 
-**Computer performance is extremely important.** To do our jobs faster, we try to balance two things:
+**Computer performance is extremely important.**
+
+To do our jobs faster, we try to balance two things:
 - Use of applications to make our lives **easier**
 - Performance/Efficientcy to make our lives **faster**
 
@@ -81,7 +85,6 @@ You should have the following user/pass combinations ready:
       - Google Chrome (https://www.google.com/chrome/browser/features.html)
       - Moom (https://itunes.apple.com/us/app/moom/id419330170?mt=12)
         - Allow the app to control your computer via System Preferences > Security & Privacy
-      - RescueTime (https://www.rescuetime.com/get_rescuetime)
 
 ### 🔍 Spotlight
   - Only the following:
@@ -280,9 +283,10 @@ You should have the following user/pass combinations ready:
       - [ ] Show warning before emptying the Trash
       - When performing a search: Search the Current Folder
 
-### ⬛ shell
+### ⬛ Terminal Settings
+  - Download my settings here: https://github.com/grant/iterm-profile
+  - Copy `.ssh` folder.
   - [iTerm](https://www.iterm2.com/) - Terminal
-    - Download my settings here: https://github.com/grant/iterm-profile
     - General
       - Startup
         - Use System Window Restoration Setting
@@ -374,20 +378,20 @@ You should have the following user/pass combinations ready:
         - Shell Integration
           - [ ] Insert newline before start of a command prompt if needed
           - [ ] Show mark indicators
+
+### 🐚 Shell Software
+  - Dotfiles: https://github.com/grant/dotfiles
   - Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-    - brew install tree
-  - [npm](https://nodejs.org/en/)
-  - [yarn](https://yarnpkg.com/en/docs/install)
-  - https://github.com/grant/dotfiles
   - Git config (https://help.github.com/articles/set-up-git/):
     - `git config --global user.name "YOUR NAME"`
     - `git config --global user.email "YOUR EMAIL ADDRESS"`
     - `git config --global commit.gpgsign true`
       - https://help.github.com/articles/generating-a-new-gpg-key/
+  - `bat`: `brew install bat`
 
 ### 🌐 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
-  - Chrome Extensions (chrome://extensions/)
+  - Chxrome Extensions (chrome://extensions/)
     - AdBlock
     - Boomerang for Gmail
     - Checker Plus for Gmail
@@ -395,13 +399,10 @@ You should have the following user/pass combinations ready:
     - Cookie Inspector
     - Currently (new tab screen)
     - Full Page Screen Capture
-    - Grammarly for Chrome
     - Hacker News Collapsible Comments
-    - Isometric Contributions
     - JSON Formatter
     - LastPass: Free Password Manager
-    - Octotree (Code tree fro GitHub)
-    - React Developer Tools
+    - Octotree (Code tree for GitHub)
     - Save as PDF
     - SoundCloud Button
     - SpeakIt!
@@ -418,13 +419,15 @@ You should have the following user/pass combinations ready:
   - Keyboard
     ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
-### 🖼 [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
-
-### ⏰ [RescueTime](rescuetime.com/download)
+### 🖼 Images/GIFs
+  - [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
+  - Screenshots:
+    - Open `screenshot.app`, options, save to `~/screenshots`.
 
 ## 🚢 Dock
   - Remove all but the following:
     - Finder
+    - Chrome
     - iTerm
     - VS Code
 
@@ -444,28 +447,33 @@ You should have the following user/pass combinations ready:
 ```sh
 ## All scripts not effective until Finder and Dock are restarted (see below)
 
-## Make screenshots save to custom directory:
-cd ~;
-mkdir screenshots;
-defaults write com.apple.screencapture location ~/Documents/screenshots;
 ## Speed up exposé animation
-defaults write com.apple.dock expose-animation-duration -float 0.12 && killall Dock
+defaults write com.apple.dock expose-animation-duration -float 0.1 && killall Dock
 ## Show hidden files in finder
 defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
 ## Disable animation for Get Info window
 defaults write com.apple.finder DisableAllAnimations -bool true
+## No .DS_Store files
+defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+# Disable "Last Login"
+touch .hushlogin
 
 ## !!! Commit changes by running the following
 killAll Finder && killAll Dock
-
-## View images from terminal (must use iTerm and follow Shell Integration setup above)
-curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
-# Then `imgcat ~/Downloads/IMG.JPG`
 ```
+
+## Programming Languages
+
+- Node: https://nodejs.org/en/download/
+- Golang: https://golang.org/dl/
+- Java: https://www.oracle.com/java/technologies/javase-downloads.html
+- .NET Core: https://dotnet.microsoft.com/download
+- Python: Already preinstalled
+- Ruby: Already preinstalled
+- PHP: `brew install httpd php72`
 
 ## 📝 Fonts
 
-- Monaco
 - [Fira Code](https://github.com/tonsky/FiraCode)
 
 ## 🖥 Hardware (Ideal dev computer (as of 2016))
@@ -492,7 +500,7 @@ curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
 # Tips and tricks
 - https://blog.sindresorhus.com/macos-tips-tricks-13046cf377f8#.bw4vdg7q4
 
-# Deprecated Software
+# 🗑️ Deprecated Software
 
 - Use of anything related to iCloud.
 - 📝 [Sublime](https://www.sublimetext.com/3) - Text editor
