@@ -238,11 +238,6 @@ To do our jobs faster, we try to balance two things:
   - Switch Control: Default
   - Dictation: None
 
-### ☕ Flash Player/Java: Default
-  - UPDATE (2019): Don't install Flash/Java
-  - ~~Flash: https://get.adobe.com/flashplayer/?fpchrome~~
-  - ~~Java: http://www.oracle.com/technetwork/java/javase/downloads/index-jsp-138363.html~~
-
 ## 🖥 Applications
 > OPTIONAL: Any application that you have pinned constantly should be converted to a native app
   - https://github.com/jiahaog/nativefier `sudo npm install nativefier -g`
@@ -388,36 +383,20 @@ To do our jobs faster, we try to balance two things:
           - [ ] Insert newline before start of a command prompt if needed
           - [ ] Show mark indicators
 
-### 🐚 Shell Software
-  - Dotfiles: https://github.com/grant/dotfiles
-  - Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  - Git config (https://help.github.com/articles/set-up-git/)
-  - Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
-      ```sh
-      git config --global user.name "YOUR NAME"
-      git config --global user.email "YOUR EMAIL ADDRESS"
-      git config --global commit.gpgsign true
-      git config --global pull.ff only
-      ```
-- `bat`: `brew install bat`
-
 ### 🌐 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
   - Chxrome Extensions (chrome://extensions/)
-    - AdBlock
-    - Boomerang for Gmail
+    - Adblock Plus
     - Checker Plus for Gmail
     - Checker Plus for Google Calendar
-    - Cookie Inspector
-    - Currently (new tab screen)
-    - Full Page Screen Capture
+    - GoFullPage - Full Page Screen Capture
     - Hacker News Collapsible Comments
     - JSON Formatter
     - LastPass: Free Password Manager
-    - Octotree (Code tree for GitHub)
+    - Refined GitHub
     - Save as PDF
-    - SoundCloud Button
-    - SpeakIt!
+    - Tab Pinner (Keyboard Shortcuts)
+    - Tab Size on GitHub
     - Video Speed Controller
     - WhatFont
   - [Open email in Gmail instead of Apple Mail](https://blog.hubspot.com/marketing/set-gmail-as-browser-default-email-client-ht#sm.0000orlgqi4b7e33zxa10x3lz8ehe)
@@ -447,32 +426,39 @@ To do our jobs faster, we try to balance two things:
   - This will be cluttered, but uninstall anything not relevant.
   - Put all pre-installed apps in folders
 
-## 📝 Scripts
+## 🐚 Shell Software
+  - Download personal dotfiles: https://github.com/grant/dotfiles
+  - Download Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - Download git: https://git-scm.com/downloads
+  - Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
+      ```sh
+      git config --global user.name "YOUR NAME"
+      git config --global user.email "YOUR EMAIL ADDRESS"
+      git config --global commit.gpgsign true
+      git config --global pull.ff only
+      git config --global push.default current
+      git config --global help.autocorrect 1
+      ```
+  - `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
 
-- git
-  - `git config --global push.default matching`
+- Setup OSX defaults
+    ```sh
+    ## All scripts not effective until Finder and Dock are restarted (see below)
 
-- json
-  - `sudo npm install -g jsontool # | json`
+    ## Speed up exposé animation
+    defaults write com.apple.dock expose-animation-duration -float 0.1 && killall Dock
+    ## Show hidden files in finder
+    defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
+    ## Disable animation for Get Info window
+    defaults write com.apple.finder DisableAllAnimations -bool true
+    ## No .DS_Store files
+    defaults write com.apple.desktopservices DSDontWriteNetworkStores true
+    # Disable "Last Login"
+    touch .hushlogin
 
-- OSX
-```sh
-## All scripts not effective until Finder and Dock are restarted (see below)
-
-## Speed up exposé animation
-defaults write com.apple.dock expose-animation-duration -float 0.1 && killall Dock
-## Show hidden files in finder
-defaults write com.apple.finder AppleShowAllFiles -bool YES && killall Finder
-## Disable animation for Get Info window
-defaults write com.apple.finder DisableAllAnimations -bool true
-## No .DS_Store files
-defaults write com.apple.desktopservices DSDontWriteNetworkStores true
-# Disable "Last Login"
-touch .hushlogin
-
-## !!! Commit changes by running the following
-killAll Finder && killAll Dock
-```
+    ## !!! Commit changes by running the following
+    killAll Finder && killAll Dock
+    ```
 
 ## Programming Languages
 
@@ -487,6 +473,10 @@ killAll Finder && killAll Dock
 ## 📝 Fonts
 
 - [Fira Code](https://github.com/tonsky/FiraCode)
+    ```sh
+    brew tap homebrew/cask-fonts
+    brew cask install font-fira-code
+    ```
 
 ## 🖥 Hardware (Ideal dev computer (as of 2016))
 - iMac 18core
@@ -497,7 +487,7 @@ killAll Finder && killAll Dock
 - Don't install anything else in an effort to increase performance.
   - Dropbox
   - Drive
-  - Adobe Suite (Flash, Photoshop, Acrobat, ...)
+  - Adobe Suite (Photoshop, Acrobat, ...)
   - GoToMeeting
   - Keybase
   - Kindle
@@ -521,7 +511,7 @@ killAll Finder && killAll Dock
 - ↔️ [QuickSilver](https://qsapp.com/download.php)
 - 🗣[Slack](slack.com/downloads/osx) - Communications
 - 🐺 [Firefox](mozilla.org/firefox)
-- Golang
+- Flash Player
 - IntelliJ
 - http://gitup.co/
 - Heroku Toolbelt (https://devcenter.heroku.com/articles/heroku-cli)
