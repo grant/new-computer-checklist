@@ -279,6 +279,8 @@ Ignore all those scary warnings and click "Remove from Mac".
 
 ### ⬛ Terminal Settings
   - Download my settings here: https://github.com/grant/iterm-profile
+    - Set as default iterm settings
+  - Setup https://github.com/romkatv/powerlevel10k
   - Copy `.ssh` folder from this repo.
   - Generate a key and [add it to GitHub](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent):
     - ```sh
