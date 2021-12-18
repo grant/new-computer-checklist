@@ -4,7 +4,7 @@ A checklist and list of scripts I should run when getting a new computer or rein
 
 It'll feel like a super fast, new machine!
 
-> Updated for OSX10.15 by Grant Timmerman
+> Updated for OSX12 by Grant Timmerman
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a new machine fresh off the press. Would you be able to recover your favorite settings?
 
@@ -27,32 +27,51 @@ To do our jobs faster, we try to balance two things:
 ## System Preferences
 
 ### 🍎 General
-  - Appearance: Blue
-  - [x] Use dark menu bar and Dock
-  - [x] Automatically hide and show the menu bar
-  - Highlight color: Other (gray)
+  - Appearance: Dark
+  - Accent color: Multicolor
+  - Highlight color: Accent Color
+  - Sidebar icon size: Small
+  - [x] Allow wallpaper tinting in windows
   - Show scroll bars: Automatically based on mouse or trackpad
   - Click in the scroll bar to: Jump to the next page
-  - Default web browser: Google Chrome.app
+  - Default web browser: Google Chrome
+  - Prefer tabs: in full screen
   - [ ] Ask to keep changes when closing documents
   - [x] Close windows when quitting app
-  - [x] Allow Handoff between this Mac and your iCloud devices
-  - [x] Use LCD font smoothing when available
+  - Recent items: None
+  - [ ] Allow Handoff
 
 ### 🖥 Desktop & Screen Saver
-  - Message: Start after: 1 hour, [x] show clock
+  - Message: Start after: 1 hour
+  - [x] Show with clock
   - Hot corner: bottom-left, put monitor to sleep
-  - Screen Saver: Bahamas blue
+  - Screen Saver: Default
+  - [ ] Use random screen saver
 
-### 🚢 Dock
-  - Size: 10%
-  - [x] Magnification
-  - Position on screen: Right
-  - [x] Double-click on a window's title bar to zoom
-  - [ ] Minimize windows into application icon
-  - [ ] Animate opening applications
-  - [x] Automatically hide and show the Dock
-  - [x] Show indicators for open applications
+### 🚢 Dock & Menu Bar
+  - Dock
+    - Size: Smallest
+    - [x] Magnification
+    - Position on screen: Right
+    - Minimize windows using: Scale effect
+    - [x] Double-click on a window's title bar to zoom
+    - [ ] Minimize windows into application icon
+    - [ ] Animate opening applications
+    - [x] Automatically hide and show the Dock
+    - [x] Show indicators for open applications
+    - [x] Show recent applications in Dock
+  - Menu Bar
+    - [ ] Automatically hide and show the menu bar on desktop
+    - [x] Automatically hide and show the menu bar in full screen
+  🕒 Date & Time
+    - Date & Time: Set date and time automatically
+    - Time Zone: Set time zone automatically using current location
+    - Clock
+      - [x] Show date and time in menu bar
+      - Time Options: Digital
+      - Date options:
+        - [x] Show the day of the week
+        - [x] Show the date
 
 ### 🖲 Mission Control
   - [x] Automatically rearrage Spaces based on most recent use
@@ -70,15 +89,12 @@ To do our jobs faster, we try to balance two things:
     - English - Primary
     - 简体中文 - Chinese, Simplified
   - Region: United States
-  - First day of the week: Sunday
   - Calendar: Gregorian
   - Time format: [x] 24-Hour Time
-  - List sort order: Universal
 
 ### 🔒 Security & Privacy
   - General
-    - Require password for 1 minute after sleep or screensafer begins
-    - Disable automatic login
+    - [x] Require password for 1 minute after sleep or screen saver begins
     - Allow apps downloaded from: Mac App Store and identified developers
   - Privacy
     - Allow the apps below to control your computer: (when downloaded)
@@ -92,31 +108,33 @@ To do our jobs faster, we try to balance two things:
     - PDF Documents
     - System Preferences
 
-### 🔔 Notifications - Nothing special
+### 🔔 Notifications
+  - Allow Notifications: Banners
+  - [x] Show notifcations on lock screen
+  - [x] Show in Notification Center
 
 ### 📺 Display
   - Default for display
-  - Rotation: Standard
-  - Refresh Rate: 60 Hertz (NTSC)
-  - Underscan: Off
-  - [x] Show mirroring options in the menu bar when available
+  - [x] Automatically adjust brightness
+  - [x] True Tone
+  - Refresh Rate: ProMotion
 
-### 🔌 Energy Saver
-  - [x] Automatic graphics switching
-  - 3 hrs
-  - [ ] Put hard disks to sleep when possible
-  - [x] Wake for network access
-  - [x] Enable Power Nap while plugged into a power adapter
+### 🔌 Battery
+  - Turn display off after 15 minutes
+  - [x] Put hard disks to sleep when possible
+  - [x] Slightly dim the display while on battery power
+  - [ ] Optimize video streaming while on battery
+  - [x] Optimized battery charging
   - [x] Show battery status in menu bar
+  - [ ] Low power mode
 
 ### ⌨ Keyboard
   - Key Repeat - 2nd to fastest
   - Delay Until Repeat - 3rd tick from left
-  - [x] Use all F1, F2, etc.
   - [x] Adjust keyboard brightness in low light
-  - Turn off when computer is not used for: Never
+  - [ ] Turn off when computer is not used
   - [x] Show Keyboard, Emoji, & Symbol Viewers in menu bar
-  - No other unique keyboard settings
+  - [x] Use all F1, F2, etc.
 
 ### 🖱 Mouse
   - Tracking speed: Fastest
@@ -130,7 +148,9 @@ To do our jobs faster, we try to balance two things:
     - [ ] Look up & data detectors
     - [x] Secondary click
     - [x] Tap to click
+    - Click: Medium
     - Tracking speed: 2nd to last tick
+    - [x] Force Click and haptic feedback
   - Scroll & Zoom
     - [x] Scroll direction
     - [x] Zoom in or out
@@ -157,6 +177,8 @@ To do our jobs faster, we try to balance two things:
   - [x] Keychain
   - [x] Find My Mac
 
+Ignore all those scary warnings and click "Remove from Mac".
+
 ### 💎 Extensions
   - DON'T DOWNLOAD DRIVE OR DROPBOX
   - Actions: Not enabled
@@ -180,56 +202,32 @@ To do our jobs faster, we try to balance two things:
 
 ### 👤 Users & Groups
   - Grant Timmerman - Admin
-    - Avatar: Owl
+    - Avatar: Fox
   - Other Users - Guest User - Off
-
-### 👨‍👧 Parental Controls - none
-
-### 🛍 App Store
-  - [x] Automatically check for updates
-    - [x] Download newly available updates in the background
-    - [x] Install app updates
-    - [x] Install OS X Updates
-    - [x] Install system data files and security updates
-  - [ ] Automatically download apps purchaes on other Macs
-
-### 🗣 Dictation & Speech
-  - Dictation All Off
-
-### 🕒 Date & Time
-  - Date & Time: Set date and time automatically
-  - Time Zone: Set time zone automatically using current location
-  - Clock
-    - [x] Show date and time in menu bar
-    - Time Options: Digital
-    - Date options:
-      - [x] Show the day of the week
-      - [x] Show the date
 
 ### 🕰 Time Machine: Off
 
 ### 💬 Accessibility
+  - VoiceOver: Disabled
+  - Zoom
+    - [x] Use keyboard shortcuts to zoom
+    - [ ] Use scroll gesture with modifier keys to zoom
+    - Zoom style: Full screen
+    - Advanced
+      - Maximum Zoom: 0
+      - Minimum Zoom: 0
+      - When zoomed in, the screen image moves: Continuously with pointer
   - Display
     - [ ] Invert colors
     - [ ] Use grayscale
     - [ ] Differentiate without color
     - [ ] Increase contrast
-    - [x] Reduce transparency
+    - [ ] Reduce transparency (you could add this if you want)
     - Display Contrast: Left-most tick
-    - Cursor Size: 2nd tick from left
-    - [x] Shake mouse pointer to locate
-  - Zoom
-    - [x] Use keyboard shortcuts to zoom
-    - [ ] Use scroll gesture with modifier keys to zoom
-    - [x] Smooth Images
-    - [ ] Zoom follows the keybaord focus
-    - Zoom Style: Fullscreen
-    - More Oprtions...
-      - Maximum Zoom: 0
-      - Minimum Zoom: 0
-      - When zoomed in, the screen image moves: Continuously with pointer
-  - VoiceOver: Disabled
-  - Descriptions: Disabled
+    - Pointer
+      - Pointer Size: 2nd tick from left
+      - [x] Shake mouse pointer to locate
+  - Descriptions: Disabled 
   - Captions: Default
   - Audio: None
   - Keyboard: All disabled
@@ -429,7 +427,6 @@ To do our jobs faster, we try to balance two things:
 ## 🐚 Shell Software
   - Download personal dotfiles: https://github.com/grant/dotfiles
   - Download Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  - Download git: https://git-scm.com/downloads
   - Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
       ```sh
       git config --global user.name "YOUR NAME"
@@ -475,13 +472,13 @@ To do our jobs faster, we try to balance two things:
 - [Fira Code](https://github.com/tonsky/FiraCode)
     ```sh
     brew tap homebrew/cask-fonts
-    brew cask install font-fira-code
+    brew install font-fira-code
     ```
 
 ## 🖥 Hardware (Ideal dev computer (as of 2016))
-- iMac 18core
-- 256GB DDR4
-- 2TB SSD
+- MBP M1
+- 16GB RAM
+- X Flash storage
 
 ## 🛃 Rules
 - Don't install anything else in an effort to increase performance.
