@@ -240,7 +240,6 @@ Ignore all those scary warnings and click "Remove from Mac".
 > OPTIONAL: Any application that you have pinned constantly should be converted to a native app
   - https://github.com/jiahaog/nativefier `sudo npm install nativefier -g`
 - Applications +(Less tabs, more isolation), -(Links don't work)
-  - Google Calendar: `nativefier "calendar.google.com"`
   - SoundCloud: `nativefier --name "SoundCloud" soundcloud.com`
   - Google Chat: `nativefier --name "Hangouts Chat" chat.google.com`
 
