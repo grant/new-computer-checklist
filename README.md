@@ -4,7 +4,7 @@ A checklist and list of scripts I should run when getting a new computer or rein
 
 It'll feel like a super fast, new machine!
 
-> Updated for OSX12 by Grant Timmerman
+> Updated for OSX12, M1 by Grant Timmerman
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a new machine fresh off the press. Would you be able to recover your favorite settings?
 
@@ -22,7 +22,7 @@ You should have the following user/pass combinations ready:
 
 To do our jobs faster, we try to balance two things:
 - Use of applications to make our lives **easier**
-- Performance/Efficientcy to make our lives **faster**
+- Performance/Efficiency to make our lives **faster**
 
 ## System Preferences
 
@@ -384,7 +384,7 @@ Ignore all those scary warnings and click "Remove from Mac".
 
 ### 🌐 [Chrome](https://www.google.com/chrome/browser/desktop/index.html?brand=CHBD&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQYOf76erQPwAxn-3VFJoyB4jKG8rRaojywrA5DvKOjxoC-Ofw_wcB)/[FF](https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=sitelink&utm_term=download%20firefox&gclid=CjwKEAiA94nCBRDxismumrL83icSJAAeeETQ083MCGKGd4nl3St2NhpixoUvlbAvbJIU0zwHss-RaxoCpC7w_wcB) - Web browser
   - Log in to Chrome profile
-  - Chxrome Extensions (chrome://extensions/)
+  - Chrome Extensions (chrome://extensions/)
     - Adblock Plus
     - Checker Plus for Gmail
     - Checker Plus for Google Calendar
@@ -404,7 +404,7 @@ Ignore all those scary warnings and click "Remove from Mac".
 ### ↔️ [Moom](manytricks.com/moom/) - Window management
   - General
     - Launch on login
-    - Show perferences on launch
+    - Show preferences on launch
     - Run as faceless application
   - Keyboard
     ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
@@ -482,7 +482,7 @@ Ignore all those scary warnings and click "Remove from Mac".
 - X Flash storage
 
 ## 🛃 Rules
-- Don't install anything else in an effort to increase performance.
+- Don't install anything else to increase performance.
   - Dropbox
   - Drive
   - Adobe Suite (Photoshop, Acrobat, ...)
