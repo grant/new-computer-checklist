@@ -15,7 +15,7 @@ You should have the following user/pass combinations ready:
 - Apple ID (OS setup)
 - LastPass (Password manager)
 - Phone – 2FA
-  
+
 ## Performance
 
 **Computer performance is extremely important.**
@@ -237,13 +237,14 @@ Ignore all those scary warnings and click "Remove from Mac".
   - Dictation: None
 
 ## 🖥 Applications
+
 > OPTIONAL: Any application that you have pinned constantly should be converted to a native app
   - https://github.com/jiahaog/nativefier `sudo npm install nativefier -g`
 - Applications +(Less tabs, more isolation), -(Links don't work)
   - SoundCloud: `nativefier --name "SoundCloud" soundcloud.com`
   - Google Chat: `nativefier --name "Hangouts Chat" chat.google.com`
 
-### 📂 finder
+### 📂 Finder
   - in folders, right-click, View > as List
   - Finder > Preferences
     - Sidebar
@@ -288,7 +289,7 @@ Ignore all those scary warnings and click "Remove from Mac".
       /usr/bin/ssh-add -K ~/.ssh/id_rsa
       pbcopy < ~/.ssh/id_rsa.pub
       ```
-    # Use GitHub UI to add public key to GH
+    - Use GitHub UI to add public key to GH
   - [iTerm](https://www.iterm2.com/) - Terminal
     - General
       - Startup
@@ -401,43 +402,49 @@ Ignore all those scary warnings and click "Remove from Mac".
   - [Open email in Gmail instead of Apple Mail](https://blog.hubspot.com/marketing/set-gmail-as-browser-default-email-client-ht#sm.0000orlgqi4b7e33zxa10x3lz8ehe)
       - Display density: compact
 
-### ↔️ [Moom](manytricks.com/moom/) - Window management
-  - General
-    - Launch on login
-    - Show preferences on launch
-    - Run as faceless application
-  - Keyboard
-    ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
+### ↔️ [Moom](manytricks.com/moom/) - Window Management
+
+- General
+  - Launch on login
+  - Show preferences on launch
+  - Run as faceless application
+- Keyboard
+  ![https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png](https://cloud.githubusercontent.com/assets/744973/20869168/67cc16b0-ba21-11e6-9c03-c06f44e32d39.png)
 
 ### 🖼 Images/GIFs
-  - [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
-  - Screenshots:
-    - Open `screenshot.app`, options, save to `~/screenshots`.
+
+- [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
+- [KeyCastr](https://github.com/keycastr/keycastr) - `brew install --cask keycastr`
+- Screenshots:
+  - Open `screenshot.app`, options, save to `~/screenshots`.
 
 ## 🚢 Dock
-  - Remove all but the following:
-    - Finder
-    - Chrome
-    - iTerm
-    - VS Code
+
+- Remove all but the following:
+  - Finder
+  - Chrome
+  - iTerm
+  - VS Code
 
 ## 🚀 Launchpad
-  - This will be cluttered, but uninstall anything not relevant.
-  - Put all pre-installed apps in folders
+
+- This will be cluttered, but uninstall anything not relevant.
+- Put all pre-installed apps in folders
 
 ## 🐚 Shell Software
-  - Download personal dotfiles: https://github.com/grant/dotfiles
-  - Download Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-  - Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
-      ```sh
-      git config --global user.name "YOUR NAME"
-      git config --global user.email "YOUR EMAIL ADDRESS"
-      git config --global commit.gpgsign true
-      git config --global pull.ff only
-      git config --global push.default current
-      git config --global help.autocorrect 1
-      ```
-  - `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
+
+- Download personal dotfiles: https://github.com/grant/dotfiles
+- Download Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
+    ```sh
+    git config --global user.name "YOUR NAME"
+    git config --global user.email "YOUR EMAIL ADDRESS"
+    git config --global commit.gpgsign true
+    git config --global pull.ff only
+    git config --global push.default current
+    git config --global help.autocorrect 1
+    ```
+- `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
 
 - Setup OSX defaults
     ```sh
@@ -477,11 +484,13 @@ Ignore all those scary warnings and click "Remove from Mac".
     ```
 
 ## 🖥 Hardware (Ideal dev computer (as of 2016))
+
 - MBP M1
 - 16GB RAM
 - X Flash storage
 
 ## 🛃 Rules
+
 - Don't install anything else to increase performance.
   - Dropbox
   - Drive
@@ -498,6 +507,7 @@ Ignore all those scary warnings and click "Remove from Mac".
   - Thalmic labs
 
 # Tips and tricks
+
 - https://blog.sindresorhus.com/macos-tips-tricks-13046cf377f8#.bw4vdg7q4
 
 # 🗑️ Deprecated Software
