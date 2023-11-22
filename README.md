@@ -4,7 +4,7 @@ A checklist and list of scripts I should run when getting a new computer or rein
 
 It'll feel like a super fast, new machine!
 
-> Updated for OSX12, M1 by Grant Timmerman
+> Updated for macOS 13, M1 by Grant Timmerman
 
 Imagine your MacBook was stolen tomorrow. Or you started a new job with a new machine fresh off the press. Would you be able to recover your favorite settings?
 
@@ -413,6 +413,7 @@ Ignore all those scary warnings and click "Remove from Mac".
 
 ### 🖼 Images/GIFs
 
+- [Screen Studio](https://www.screen.studio/) - Create HQ GIFs with smooth animations
 - [Giphy Capture](https://giphy.com/apps/giphycapture) - Create GIFs
 - [KeyCastr](https://github.com/keycastr/keycastr) - `brew install --cask keycastr`
 - Screenshots:
@@ -445,6 +446,7 @@ Ignore all those scary warnings and click "Remove from Mac".
     git config --global help.autocorrect 1
     ```
 - `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
+- `gh`: `brew install gh` – GitHub CLI
 
 - Setup OSX defaults
     ```sh
@@ -483,11 +485,11 @@ Ignore all those scary warnings and click "Remove from Mac".
     brew install font-fira-code
     ```
 
-## 🖥 Hardware (Ideal dev computer (as of 2016))
+## 🖥 Hardware (Ideal dev computer)
 
-- MBP M1
-- 16GB RAM
-- X Flash storage
+- MBP M* Pro
+- 16GB+ RAM
+- Flash storage
 
 ## 🛃 Rules
 
