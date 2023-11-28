@@ -436,11 +436,9 @@ Ignore all those scary warnings and click "Remove from Mac".
 
 - Download personal dotfiles: https://github.com/grant/dotfiles
 - Download Homebrew: `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
-- Setup GPG: https://help.github.com/articles/generating-a-new-gpg-key/
     ```sh
     git config --global user.name "YOUR NAME"
     git config --global user.email "YOUR EMAIL ADDRESS"
-    git config --global commit.gpgsign true
     git config --global pull.ff only
     git config --global push.default current
     git config --global help.autocorrect 1
