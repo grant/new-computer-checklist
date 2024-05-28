@@ -442,6 +442,8 @@ Ignore all those scary warnings and click "Remove from Mac".
     git config --global pull.ff only
     git config --global push.default current
     git config --global help.autocorrect 1
+    git config --global --add --bool push.autoSetupRemote true
+
     ```
 - `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
 - `gh`: `brew install gh` – GitHub CLI
