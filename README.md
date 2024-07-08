@@ -519,7 +519,6 @@ Ignore all those scary warnings and click "Remove from Mac".
 - 📝 [Webstorm](https://www.jetbrains.com/webstorm/) - Web IDE
 - ⚡ [Messenger](https://fbmacmessenger.rsms.me/)
 - ↔️ [QuickSilver](https://qsapp.com/download.php)
-- 🗣[Slack](slack.com/downloads/osx) - Communications
 - 🐺 [Firefox](mozilla.org/firefox)
 - Flash Player
 - IntelliJ
