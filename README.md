@@ -447,6 +447,7 @@ Ignore all those scary warnings and click "Remove from Mac".
     ```
 - `bat`: `brew install bat` – `cat` is `bat` with syntax highlighting
 - `gh`: `brew install gh` – GitHub CLI
+- Clipboard Manager – Maccy: `brew install maccy`
 
 - Setup OSX defaults
     ```sh
