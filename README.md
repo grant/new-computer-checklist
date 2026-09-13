@@ -1,4 +1,4 @@
-# 💻 New Mac Checklist
+# 💻🎁 New Computer Checklist 🎁💻
 
 A practical checklist for setting up a new or freshly reinstalled Apple
 Silicon Mac.
@@ -7,7 +7,7 @@ The order is intentional: secure the Mac first, install the base tools,
 restore personal configuration, and then tune preferences. Skip anything
 that does not apply.
 
-## 1. Before starting
+## 🔑 1. Before starting
 
 Have these ready:
 
@@ -20,7 +20,7 @@ Have these ready:
 Do not copy a private SSH key from this repository or another computer.
 Generate a new key for each Mac so it can be revoked independently.
 
-## 2. Secure and update macOS
+## 🔒 2. Secure and update macOS
 
 - [ ] Install all updates in **System Settings → General → Software Update**
 - [ ] Enable **FileVault** in **Privacy & Security → FileVault**
@@ -32,7 +32,7 @@ Generate a new key for each Mac so it can be revoked independently.
 - [ ] Review apps under **Privacy & Security** before granting Accessibility,
       Screen Recording, Full Disk Access, or Automation permissions
 
-## 3. Install command-line tools
+## 🐚 3. Install command-line tools
 
 Install Apple's command-line tools:
 
@@ -61,9 +61,9 @@ Useful tools:
 - [Maccy](https://maccy.app/) — clipboard manager
 - [KeyCastr](https://github.com/keycastr/keycastr) — display keystrokes in recordings
 
-## 4. Restore the development environment
+## 🛠️ 4. Restore the development environment
 
-### Git and dotfiles
+### 🗂️ Git and dotfiles
 
 - [ ] Clone the [personal dotfiles](https://github.com/grant/dotfiles)
 - [ ] Follow that repository's setup instructions
@@ -77,7 +77,7 @@ git config --global push.default current
 git config --global push.autoSetupRemote true
 ```
 
-### SSH
+### 🔑 SSH
 
 Follow [GitHub's current SSH instructions][github-ssh]. The short version for
 a new Mac is:
@@ -94,7 +94,7 @@ Then add the public key in GitHub and test it:
 ssh -T git@github.com
 ```
 
-### Terminal
+### ⬛ Terminal
 
 - [ ] Install [iTerm2](https://iterm2.com/)
 - [ ] Import the [iTerm2 profile](https://github.com/grant/iterm-profile) and
@@ -106,7 +106,7 @@ ssh -T git@github.com
 - [ ] Use a vertical, blinking cursor
 - [ ] Disable saving command and copy/paste history to disk
 
-### Programming languages
+### 💻 Programming languages
 
 Install only the runtimes needed for current projects. macOS does not provide
 supported Python or Ruby development runtimes.
@@ -120,7 +120,7 @@ supported Python or Ruby development runtimes.
 - Ruby: `brew install ruby`
 - PHP: `brew install php`
 
-### Visual Studio Code
+### 📝 Visual Studio Code
 
 - [ ] Turn on Settings Sync
 - [ ] Copy the relevant values from [`vscode-settings.json`](vscode-settings.json)
@@ -130,9 +130,9 @@ supported Python or Ruby development runtimes.
 brew install --cask font-fira-code
 ```
 
-## 5. Install applications
+## 🖥️ 5. Install applications
 
-### Everyday
+### 📦 Everyday
 
 - [Google Chrome](https://www.google.com/chrome/) — browser
 - [Moom](https://manytricks.com/moom/) — window management
@@ -143,7 +143,7 @@ For frequently used web apps such as Google Chat, use Chrome's
 **Cast, save, and share → Install page as app** command. This replaces the
 unmaintained Nativefier workflow.
 
-### Chrome
+### 🌐 Chrome
 
 - [ ] Sign in and enable profile sync
 - [ ] Set Chrome as the default browser
@@ -164,12 +164,12 @@ Extensions worth restoring:
 Prefer the browser's built-in password manager or the chosen standalone
 password manager; do not maintain both.
 
-## 6. Configure System Settings
+## ⚙️ 6. Configure System Settings
 
 Apple moves settings between releases. Search within System Settings when a
 path has changed.
 
-### Appearance and desktop
+### 🍎 Appearance and desktop
 
 - Appearance: Dark
 - Accent color: Multicolor
@@ -180,7 +180,7 @@ path has changed.
 - Screen saver: start after one hour and show the clock
 - Bottom-left Hot Corner: put display to sleep
 
-### Dock and menu bar
+### 🚢 Dock and menu bar
 
 - Dock size: Smallest
 - Enable magnification
@@ -193,7 +193,7 @@ path has changed.
 - Show day of week and date in the menu bar
 - Show volume, battery, and Wi-Fi in the menu bar
 
-### Displays and battery
+### 📺 Displays and battery
 
 - Automatically adjust brightness
 - Enable True Tone
@@ -202,7 +202,7 @@ path has changed.
 - Enable optimized battery charging
 - Slightly dim the display on battery
 
-### Keyboard, mouse, and trackpad
+### ⌨️ Keyboard, mouse, and trackpad
 
 - Key Repeat: second-fastest
 - Delay Until Repeat: third tick from the left
@@ -220,7 +220,7 @@ defaults write -g com.apple.mouse.scaling -float 5
 
 Log out and back in for the setting to take effect.
 
-### Finder
+### 📂 Finder
 
 - Default folder view: List
 - Show Applications, Desktop, Documents, Downloads, external disks, and
@@ -229,7 +229,7 @@ Log out and back in for the setting to take effect.
 - Show all filename extensions
 - Search the current folder by default
 
-### Accounts, sharing, and privacy
+### ☁️ Accounts, sharing, and privacy
 
 - Keep only needed iCloud services enabled; keep Keychain and Find My Mac enabled
 - Add Google Workspace accounts directly to the apps that need them
@@ -238,14 +238,14 @@ Log out and back in for the setting to take effect.
 - Allow notifications as banners and show them in Notification Center
 - Review Login Items and Extensions; remove anything unused
 
-### Accessibility
+### 💬 Accessibility
 
 - Enable keyboard shortcuts for zoom
 - Zoom style: Full screen
 - Keep VoiceOver, Switch Control, and Dictation disabled unless needed
 - Enable “Shake mouse pointer to locate”
 
-## 7. Apply macOS defaults
+## 🧰 7. Apply macOS defaults
 
 Run only the defaults still desired:
 
@@ -266,7 +266,7 @@ killall Finder
 killall Dock
 ```
 
-## 8. Final checks
+## ✅ 8. Final checks
 
 - [ ] Restart the Mac
 - [ ] Confirm FileVault encryption is progressing or complete
@@ -276,7 +276,7 @@ killall Dock
 - [ ] Check microphone, camera, screen sharing, and external displays
 - [ ] Remove unused installers and Login Items
 
-## Hardware baseline
+## 🖥️ Hardware baseline
 
 - Apple Silicon MacBook Pro
 - 16 GB or more RAM
