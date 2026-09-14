@@ -7,10 +7,9 @@
     "editor.wordWrapColumn": 100,
     "window.zoomLevel": 0,
     "workbench.editor.tabCloseButton": "off",
-    "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.defaultProfile.osx": "zsh",
     "go.formatTool": "goimports",
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "java.semanticHighlighting.enabled": true,
     "files.exclude": {
         "**/.classpath": true,
@@ -23,6 +22,5 @@
         "php:S107": {
             "level": "off"
         }
-    },
-    "python.languageServer": "Microsoft"
+    }
 }
