@@ -55,7 +55,7 @@ the essentials:
 
 ```sh
 brew install bat gh git
-brew install --cask google-chrome iterm2 keycastr maccy visual-studio-code
+brew install --cask cursor google-chrome iterm2 keycastr maccy
 ```
 
 Useful tools:
@@ -135,10 +135,11 @@ supported Python or Ruby development runtimes.
 - Ruby: `brew install ruby`
 - PHP: `brew install php`
 
-### 📝 Visual Studio Code
+### 📝 [Cursor](https://cursor.com/download)
 
-- [ ] Turn on Settings Sync
-- [ ] Copy the relevant values from [`vscode-settings.json`](vscode-settings.json)
+- [ ] Sign in to restore account-backed Cursor user rules
+- [ ] Copy the relevant values from
+      [`cursor-settings.json`](cursor-settings.json) into the user settings
 - [ ] Install [Fira Code](https://github.com/tonsky/FiraCode):
 
 ```sh
@@ -204,7 +205,7 @@ path has changed.
 - Disable launch animations
 - Automatically hide the Dock
 - Show indicators for open apps
-- Keep only Finder, Chrome, iTerm2, and VS Code in the Dock
+- Keep only Finder, Chrome, iTerm2, and Cursor in the Dock
 - Show day of week and date in the menu bar
 - Show volume, battery, and Wi-Fi in the menu bar
 
