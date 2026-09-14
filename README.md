@@ -1,7 +1,11 @@
 # 💻🎁 New Computer Checklist 🎁💻
 
-A practical checklist for setting up a new or freshly reinstalled Apple
-Silicon Mac.
+A checklist for setting up a new or freshly reinstalled Mac. When it is done,
+it should feel like a super-fast, brand-new machine!
+
+Imagine your MacBook was stolen tomorrow—or you started a new job with a
+machine fresh off the press. Could you recover your favorite settings without
+having to remember everything from scratch?
 
 The order is intentional: secure the Mac first, install the base tools,
 restore personal configuration, and then tune preferences. Skip anything
