@@ -54,8 +54,8 @@ Follow Homebrew's printed instructions to add it to the shell, then install
 the essentials:
 
 ```sh
-brew install bat gh git maccy
-brew install --cask google-chrome iterm2 keycastr visual-studio-code
+brew install bat gh git
+brew install --cask google-chrome iterm2 keycastr maccy visual-studio-code
 ```
 
 Useful tools:
@@ -88,13 +88,24 @@ a new Mac is:
 
 ```sh
 ssh-keygen -t ed25519 -C "your-email@example.com"
-ssh-add --apple-use-keychain ~/.ssh/id_ed25519
-pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
-Then add the public key in GitHub and test it:
+Add this host entry to `~/.ssh/config` so macOS reloads the key after a
+restart:
+
+```sshconfig
+Host github.com
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+```
+
+Then load the key, copy its public half, add it in GitHub, and test it:
 
 ```sh
+chmod 600 ~/.ssh/config
+ssh-add --apple-use-keychain ~/.ssh/id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
 ssh -T git@github.com
 ```
 
