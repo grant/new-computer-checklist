@@ -114,8 +114,19 @@ ssh -T git@github.com
 - [ ] Install [iTerm2](https://iterm2.com/)
 - [ ] Import the [iTerm2 profile](https://github.com/grant/iterm-profile) and
       make it the default
-- [ ] Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k)
-      through the dotfiles setup
+- [ ] Install [Powerlevel10k](https://github.com/romkatv/powerlevel10k) and
+      replace the dotfiles' `agnoster` theme:
+
+```sh
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git \
+  "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+sed -i '' \
+  's|^ZSH_THEME=.*|ZSH_THEME="powerlevel10k/powerlevel10k"|' ~/.zshrc
+exec zsh
+```
+
+Run `p10k configure` if the configuration wizard does not start automatically.
+
 - [ ] Set scrollback to 50,000 lines
 - [ ] Enable copy-to-pasteboard on selection
 - [ ] Use a vertical, blinking cursor
